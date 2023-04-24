@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -107,6 +107,18 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -365,8 +377,8 @@ TextureImporter:
       PERSONAJE 1_28: -506963750
       MSalto02: -929541457
       MSalto03: 1780580178
-      PERSONAJE 1_8: 1690515164
-      MCorriendo06: 1951797876
+      MCorriendo05: 1971803582
+      PERSONAJE 1_23: 896406606
       PERSONAJE 1_31: 280913427
       PERSONAJE 1_30: -486029815
       PERSONAJE 1_6: -1953669877
@@ -387,9 +399,9 @@ TextureImporter:
       MCorriendo01: -692427068
       PERSONAJE 1_25: -789618728
       PERSONAJE 1_24: -1036341198
-      PERSONAJE 1_23: 896406606
+      PERSONAJE 1_8: 1690515164
       PERSONAJE 1_22: -272366194
-      MCorriendo05: 1971803582
+      MCorriendo06: 1951797876
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
