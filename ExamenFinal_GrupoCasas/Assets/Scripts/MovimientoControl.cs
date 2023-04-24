@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovimientoControl : MonoBehaviour
 {
     public float velocidad = 5f;
-    public float saltofuerza = 7f;
+    public float saltofuerza = 10f;
     private Animator Animator;
 
     private Rigidbody2D rb;
