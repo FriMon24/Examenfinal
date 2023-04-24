@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Waluigi
   m_EditorClassIdentifier: Assembly-CSharp::Personajes
-  personajeJugable: {fileID: 0}
+  personajeJugable: {fileID: 5650320786920738719, guid: 389ffc351f75a224ba08dfa8108d8ebd, type: 3}
   imagen: {fileID: -1845808139, guid: c35a08018717989438a6b6f6cdb8bac6, type: 3}
   nombre: Waluigi

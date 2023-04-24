@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Luigi
   m_EditorClassIdentifier: Assembly-CSharp::Personajes
-  personajeJugable: {fileID: 0}
+  personajeJugable: {fileID: 5650320786920738719, guid: 442e3241fe5a6bc4e8d28c6aae2491bb, type: 3}
   imagen: {fileID: 417325046, guid: a90163b8f59c7f14985c96587ca98dd5, type: 3}
   nombre: Luigi

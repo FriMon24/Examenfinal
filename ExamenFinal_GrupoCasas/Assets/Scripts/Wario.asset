@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Wario
   m_EditorClassIdentifier: Assembly-CSharp::Personajes
-  personajeJugable: {fileID: 0}
+  personajeJugable: {fileID: 5650320786920738719, guid: 7ed0b43e9841b4a48836a388000dbc75, type: 3}
   imagen: {fileID: -672281444, guid: eff4b83007deb9341869983c1b663f11, type: 3}
   nombre: Wario

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Mario
   m_EditorClassIdentifier: Assembly-CSharp::Personajes
-  personajeJugable: {fileID: 0}
+  personajeJugable: {fileID: 5650320786920738719, guid: 6a29f0844d614b74b8076bc89af088d6, type: 3}
   imagen: {fileID: 243270115, guid: 2930298a7d555314a84ae2514b1f7a30, type: 3}
   nombre: Mario

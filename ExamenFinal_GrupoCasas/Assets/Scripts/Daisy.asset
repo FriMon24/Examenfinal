@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Daisy
   m_EditorClassIdentifier: Assembly-CSharp::Personajes
-  personajeJugable: {fileID: 0}
+  personajeJugable: {fileID: 5650320786920738719, guid: 4fdb1e3140d8dfd4ba7e701f5e9e03b9, type: 3}
   imagen: {fileID: -1409666340, guid: dd2b9894b25435641b5c9fdadf7d03af, type: 3}
   nombre: Daisy

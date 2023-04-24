@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: Toad
   m_EditorClassIdentifier: Assembly-CSharp::Personajes
-  personajeJugable: {fileID: 0}
+  personajeJugable: {fileID: 5650320786920738719, guid: 2282abce140e78147aec8f46c42e1c0b, type: 3}
   imagen: {fileID: -269721461, guid: f91fa74f23967d74eab6090a17d4d128, type: 3}
   nombre: Toad
