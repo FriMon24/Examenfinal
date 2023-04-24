@@ -4,32 +4,33 @@ using UnityEngine;
 
 public class Controles : MonoBehaviour
 {
+   public float velocidad;
    public float jumpforce;
-   public float movimiento;
-   Rigidbody2D rb; 
-    
-    // Start is called before the first frame update
-    void Start()
+   private Rigidbody2D rb;
+
+    private void Start() 
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.W))
-        {
-            rb.velocity = new Vector2(rb.velocity.x, jumpforce);
-        }
-        
-        if(Input.GetKeyDown(KeyCode.D))
-        {
-            rb.velocity = new Vector2(rb.velocity.y, movimiento);
-        }
+        MoveControl();
+        JumpControl();
+    }
 
-        if(Input.GetKeyDown(KeyCode.A))
+    void MoveControl()
+    {
+        float movimiento = Input.GetAxis("Horizontal");
+        rb.velocity = new Vector2(movimiento * velocidad, rb.velocity.y);
+    }
+
+    void JumpControl()
+    {
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            rb.velocity = new Vector2(-rb.velocity.y, movimiento);
+            rb.AddForce(Vector2.up * jumpforce, ForceMode2D.Impulse);
         }
     }
 }
